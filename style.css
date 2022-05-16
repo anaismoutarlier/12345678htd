@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#maintitle {
+    text-align: center;
+    margin: 2vw;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 20vh;
+    width: 45vw;
+    margin: 1vw;
+    padding-top: 1vh;
+}
+
+.small-card {
+    height: 25vh;
+    width: 35vw;
+    margin: 1vw;
+    padding-top: 1vh;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* TO CODE */
+
+.btn {
+    background-color: #03045E;
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    text-align: center;
+    width: 120px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #023E8A;
+}
+
+.color {
+    height: 85px;
+    width: 85px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.darkgrey {
+    background-color: #212529;
+}
+
+.grey {
+    background-color: #CED4DA;
+}
+
+.darkblue {
+    background-color: #03045E;
+}
+
+.blue {
+    background-color: #023E8A;
+}
+
+.lightblue {
+    background-color: #CAF0F8;
+}
+
+.font-title {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #023E8A;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.regular {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+table {
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.card-element {
+    margin-top: 10px;
+    height: 500px;
+    width: 600px;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+}
+
+.card-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img {
+    height: 300px;
+}
